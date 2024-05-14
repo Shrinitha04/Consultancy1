@@ -22,7 +22,7 @@ const Footer = () => {
             {/* Grid column */}
             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               {/* Content */}
-              <h6 className="text-uppercase fw-bold">Rathna Jewellers</h6>
+              <h6 className="text-uppercase fw-bold">BOOTY BAGS AND SHOES</h6>
               <hr
                 className="mb-4 mt-0 d-inline-block mx-auto"
                 style={{
@@ -32,11 +32,10 @@ const Footer = () => {
                 }}
               />
               <p style={{ color: "white" }}>
-                Welcome to Rathna Jewellers, where the legacy of exquisite
-                craftsmanship meets five generations of dedication and passion
-                for fine jewelry. Since our inception in 1947, we have been
-                committed to delivering unparalleled quality and service to our
-                esteemed customers.
+              Welcome to Booty Bags & Shoes, where the tradition of impeccable design 
+              meets five generations of dedication and passion for stylish accessories. 
+              Since our establishment in 1947, we have been devoted to providing unmatched 
+              quality and service to our valued clients.
               </p>
             </div>
             {/* Grid column */}
@@ -86,14 +85,14 @@ const Footer = () => {
                 }}
               />
               <p style={{ color: "white" }}>
-                <i className="fas fa-home mr-3"></i> N.511/227, KADAI VITHI, ATTUR, SALEM-636 102
+                <i className="fas fa-home mr-3"></i> SARASWATHI OPPOSITE,NORTH CAR STREET,TIRUCHENGODE-637211,NAMAKKAL(DT)
               </p>
               <p style={{ color: "white" }}>
                 <i className="fas fa-envelope mr-3"></i>{" "}
-                rathnajewellerss@gmail.com
+                amirbags@gmail.com
               </p>
               <p style={{ color: "white" }}>
-                <i className="fas fa-phone mr-3"></i> +91 97864 74055
+                <i className="fas fa-phone mr-3"></i> +91 76395 77713
               </p>
             </div>
             {/* Grid column */}

@@ -33,7 +33,7 @@ const productSchema = new mongoose.Schema({
     type: String,
     required: [true, "Please enter product category"],
     enum: {
-      values: ["Gold", "Silver", "Diamond", "Gifts"],
+      values: ["Men shoe", "Women shoe", "Kids shoe", "Bags"],
       message: "Please select correct category",
     },
   },
@@ -51,20 +51,13 @@ const productSchema = new mongoose.Schema({
     validate: {
       validator: function (value) {
         const typesByCategory = {
-          Gold: [
-            "Ring",
-            "Earring",
-            "Kadas",
-            "Bracelet",
-            "Bangle",
-            "Chain",
-            "Mangalyam",
-            "Necklace",
-            "Haram",
+          "Men shoe": [
+            "Professional",
+            "casuals"
           ],
-          Silver: ["Ring", "Earring", "Bracelet", "Chain", "Anklet"],
-          Diamond: ["Ring", "Earring", "Nosepin", "Necklace"],
-          Gifts: ["God statue", "Vizhaku", "Pen", "Pendant", "Mugappu"],
+          "Women shoe": ["stylish","Normal"],
+          "Kids shoe": ["Toy shoe","Normal shoe"],
+         "Bags": ["Sling bag", "Hand bag","school bag"],
         };
 
         return typesByCategory[this.category].includes(value);

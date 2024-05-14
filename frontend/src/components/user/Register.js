@@ -104,10 +104,10 @@ export default function Register() {
               className="form-control"
             />
 
-            <button >SendOTP</button>
+            {/* <button >SendOTP</button> */}
           </div>
           <div className="form-group">
-            <label htmlFor="phone_field">phoneNo</label>
+            <label htmlFor="phone_field">PhoneNo</label>
             <input
               name="phoneno"
               onChange={onChange}
@@ -123,7 +123,7 @@ export default function Register() {
               onChange={onChange}
               id="address_field"
               className="form-control"
-              rows="4" // You can adjust the number of rows as needed
+              rows="4" 
             ></textarea>
           </div>
 

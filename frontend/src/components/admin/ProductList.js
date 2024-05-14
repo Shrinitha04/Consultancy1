@@ -1,12 +1,12 @@
 import { Fragment, useEffect, useState } from "react";
-import { Button, Form } from "react-bootstrap"; // Added Form from react-bootstrap
+import { Button, Form } from "react-bootstrap"; 
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import {
   deleteProduct,
   getAdminProducts,
   updateProductPrice,
-} from "../../actions/productActions"; // Assuming updateProductPrice action is available
+} from "../../actions/productActions"; 
 import { clearError, clearProductDeleted } from "../../slices/productSlice";
 import Loader from "../layouts/Loader";
 import { MDBDataTable } from "mdbreact";
@@ -51,7 +51,7 @@ export default function ProductList() {
           sort: "asc",
         },
         {
-          label: "Weight(in grams)",
+          label: "Size",
           field: "gram",
         },
         {
@@ -188,7 +188,7 @@ export default function ProductList() {
       </div>
       <div className="col-12 col-md-10">
         <h1 className="my-4">Product List</h1>
-        <div>
+        {/* <div>
           <label htmlFor="product">Select Category:</label>
           <select
             id="product"
@@ -213,9 +213,9 @@ export default function ProductList() {
           />
          
           <br></br>
-          <Button style={{}} onClick={updatePriceInDB}>Update Prices</Button>{" "}
+          <Button style={{}} onClick={updatePriceInDB}>Update Prices</Button>{" "} */}
           {/* Button to update prices in database */}
-        </Form.Group>
+        {/* </Form.Group> */}
         <Fragment>
           {loading ? (
             <Loader />

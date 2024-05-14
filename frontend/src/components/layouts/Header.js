@@ -20,7 +20,7 @@ export default function Header() {
         className="text-center py-2"
         style={{ backgroundColor: "black", color: "white" }}
       >
-        RATHNA JEWELLERS
+       <h1>BOOTY BAGS AND SHOES</h1> 
       </div>
       <nav className="navbar row">
         
@@ -29,8 +29,8 @@ export default function Header() {
             <Link to="/">
               <img
                 width="150px"
-                alt="Rathna Jewellery Logo"
-                src="/images/logo1.png"
+                alt="Booty bags Logo"
+                src="/images/logo_shop.jpg"
                 style={{ width: "20%" }}
               />
             </Link>

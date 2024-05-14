@@ -1,10 +1,7 @@
 import React, { useState } from "react";
-//import { Link, NavLink } from "react-router-dom";
 import {Carousel} from 'react-bootstrap';
-
 import "./Home.css";
-// import "bootstrap/dist/css/bootstrap.min.css";
-// import Layout from "./Layout/Layout";
+
 
 function Home() {
   return (
@@ -17,7 +14,7 @@ function Home() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./walpp.png"
+            src="./wallp1.jpg"
             alt="First slide"
             style={{ width: "100%", height: "50%" }}
           />
@@ -25,7 +22,7 @@ function Home() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./walpp.png"
+            src="./wallp.jpg"
             alt="First slide"
             style={{ width: "100%", height: "50%" }}
           />
@@ -33,12 +30,12 @@ function Home() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./walpp.png"
+            src="./wallpap.png"
             alt="First slide"
             style={{ width: "100%", height: "50%" }}
           />
         </Carousel.Item>
-        {/* Add more Carousel.Item components with additional images */}
+   
       </Carousel>
     </div>
 
@@ -49,7 +46,7 @@ function Home() {
             <div className="card">
               <a href="./products">
                 <img
-                  src="./l3.webp"
+                  src="./walpp1.jpg"
                   className="card-img-top"
                   alt="Image 1"
                   style={{ height: 300, width: 325 }}
@@ -68,7 +65,7 @@ function Home() {
             <div className="card">
               <a href="./about">
                 <img
-                  src="./l4.jpg"
+                  src="./walpp2.jpg"
                   className="card-img-top"
                   alt="Image 2"
                   style={{ height: 300, width: 335 }}
@@ -78,7 +75,7 @@ function Home() {
                 <h5 className="card-title">
                   <b>Wanna know about us</b>
                 </h5>
-                <p className="card-text">Just pinch me....</p>
+                <p className="card-text">Just ping me....</p>
               </div>
             </div>
           </div>
@@ -86,7 +83,7 @@ function Home() {
           <div className="col-md-4">
             <div className="card">
               <img
-                src="./c1.png"
+                src="./walpp3.jpg"
                 className="card-img-top"
                 alt="Image 3"
                 style={{ height: 300, width: 335 }}
@@ -109,9 +106,9 @@ function Home() {
       <div className="img">
         <a href="/products">
           <img
-            src="./gg.gif"
+            src="./frontgif.gif"
             alt="MyImage"
-            style={{ width: "100%", height: "auto" }} // Adjusted height to maintain aspect ratio
+            style={{ width: "100%", height: "auto" }} 
           />
         </a>
       </div>
@@ -123,7 +120,6 @@ function Home() {
       <br></br>
       <br></br>
 
-      {/* Legacy */}
       
     </div>
   );

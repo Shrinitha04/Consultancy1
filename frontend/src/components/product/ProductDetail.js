@@ -146,7 +146,7 @@ export default function ProductDetail () {
                     <p>Status: <span className={product.stock > 0 ?'greenColor':'redColor'} id="stock_status">{ product.stock > 0 ?'In Stock':'Out of Stock'}</span></p>
 
                     <hr/>
-                    <p className="mt-2">weight(in grams): <b>{product.gram}</b></p>
+                    <p className="mt-2">Size: <b>{product.gram}</b></p>
                     <h4 className="mt-2">Description:</h4>
                     <p>{product.description}</p>
                     <hr/>

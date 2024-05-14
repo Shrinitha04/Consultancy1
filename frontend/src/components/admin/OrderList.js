@@ -23,7 +23,7 @@ export default function OrderList() {
 
   const setOrders = () => {
     const currentDate = new Date();
-    // const currentTime = currentDate.toLocaleTimeString();
+    
     let orderId = 1;
 
     const data = {

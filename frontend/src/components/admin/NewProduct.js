@@ -22,17 +22,17 @@ export  default function NewProduct () {
     const { loading, isProductCreated, error } = useSelector( state => state.productState)
 
     const categories = [
-        'Diamond',
-        'Gold',
-        'Silver',
-        'Gifts'
+        'Men shoe',
+        'Women shoe',
+        'Kids shoe',
+        'Bags'
     ];
 
     const typesByCategory = {
-        'Gold': ['Ring', 'Earring', 'Bracelet', 'Bangle', 'Kadas', 'Chain', 'Mangalyam', 'Necklace', 'Haram'],
-        'Silver': ['Ring', 'Earring', 'Bracelet', 'Chain', 'Kolusu'],
-        'Diamond': ['Ring', 'Earring', 'Nosepin', 'Necklace'],
-        'Gifts': ['God statue', 'Vizhaku', 'Pen', 'Pendant', 'Mugappu']
+        'Men shoe': ['Professional', 'casuals'],
+        'Women shoe': ['stylish','Normal'],
+        'Kids shoe': ['Toy shoe','Normal shoe'],
+        'Bags': ['Sling bag','Hand bag','school bag']
     };
 
     const navigate = useNavigate();
@@ -140,7 +140,7 @@ export  default function NewProduct () {
                             </div>
 
                             <div className="form-group">
-                                <label htmlFor="gram">Weight(in grams)</label>
+                                <label htmlFor="gram">Size</label>
                                 <input
                                     type="number"
                                     id="gram"

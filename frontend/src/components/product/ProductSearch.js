@@ -24,20 +24,13 @@ export  default function ProductSearch(){
 
     const { keyword } = useParams();
     const categoriesAndTypes = {
-      Gold: [
-        "Ring",
-        "Earring",
-        "Bracelet",
-        "Bangle",
-        "kadas",
-        "Chain",
-        "Mangalyam",
-        "Necklace",
-        "Haram",
+      "Men shoe": [
+        "Professional",
+        "casuals"
       ],
-      Silver: ["Ring", "Earring", "Bracelet", "Chain", "kolusu"],
-      Diamond: ["Ring", "Earring", "Nosepin", "Necklace"],
-      Gift: ["God statue", "Vizhaku", "Pen", "Pendant", "Mugappu"],
+      "Women shoe": ["stylish","Normal"],
+      "Kids shoe": ["Toy shoe","Normal"],
+      "Bags": ["Sling bag","Hand bag","school bag"],
     };
  
     const setCurrentPageNo = (pageNo) =>{
